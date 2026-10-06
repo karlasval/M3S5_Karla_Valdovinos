@@ -11,7 +11,7 @@ body {
         "sidebar main extras"
         "footer footer footer";
     
-    gap: 20px;
+    gap: 1.25rem;
 
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
@@ -22,14 +22,14 @@ header {
 
     background-color: #252525;
     color: white;
-    padding: 25px;
-    border-bottom: 6px solid #f5c400;
+    padding: 2rem;
+    border-bottom: 0.5rem solid #f5c400;
 }
 
 header h1 {
     color: #f5c400;
     margin: 0;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 header p {
@@ -38,9 +38,9 @@ header p {
 
 aside {
     grid-area: sidebar;
-     background-color: #333333;
+    background-color: #333333;
     color: white;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 aside h2 {
@@ -54,7 +54,7 @@ aside ul {
 }
 
 aside li {
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 aside a {
@@ -69,24 +69,24 @@ aside a:hover {
 
 main {
     grid-area: main;
-    padding: 10px;
+    padding: 0.25rem;
 }
 
 main > h2 {
     color: #252525;
-    font-size: 30px;
-    border-left: 6px solid #f5c400;
-    padding-left: 10px;
+    font-size: 1.875rem;
+    border-left: 0.375rem solid #f5c400;
+    padding-left: 0.625rem;
 }
 
 main section {
     background-color: white;
-    padding: 18px;
-    margin-bottom: 15px;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
 
-    border-left: 5px solid #f5c400;
+    border-left: 0.3125rem solid #f5c400;
 
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 main section h3 {
@@ -106,13 +106,13 @@ footer {
     color: white;
 
     text-align: center;
-    padding: 15px;
+    padding: 1.25rem;
 
-    border-top: 4px solid #f5c400;
+    border-top: 0.25rem solid #f5c400;
 }
 
 footer p {
-    margin: 5px;
+    margin: 0.3125rem;
 }
 
 .extras {
@@ -120,17 +120,17 @@ footer p {
 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 15px;
+    gap: 1.25rem;
 }
 
 .extras section {
     background-color: #333333;
     color: white;
 
-    padding: 20px;
+    padding: 1.25rem;
 
-    border-top: 5px solid #f5c400;
-    border-radius: 8px;
+    border-top: 0.3125rem solid #f5c400;
+    border-radius: 0.5rem;
 }
 
 .extras section h2 {
